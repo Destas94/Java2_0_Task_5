@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Lines extends Calculation {
-    public void readLine() //user string reader
+    public void readLine()
     {
         System.out.println("Введите с клавиатуры выражение, которое необходимо вычислить или напишите слово \"exit\" для выхода");
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
